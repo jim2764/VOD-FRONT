@@ -1,0 +1,16 @@
+{
+    "name": "VOD-Front-Dev",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/vod-front",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vue.volar",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "remoteUser": "node"
+}
