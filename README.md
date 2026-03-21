@@ -6,8 +6,8 @@
 
 本系統採前後端分離架構
 
-* **[後端(目前)](https://github.com/jim2764/vod-project)**
-* **[前端(UI)](https://github.com/jim2764/vod-front)**
+* **[後端(服務)](https://github.com/jim2764/vod-project)**
+* **[前端(目前)](https://github.com/jim2764/vod-front)**
 
 
 
