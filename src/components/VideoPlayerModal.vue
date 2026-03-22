@@ -112,11 +112,15 @@ const handleWaiting = () => {
 const resetPlayerState = () => {
   volume.value = 100;
   isPlaying.value = false;
+  isLoading.value = true;
+  isMuted.value = false;
   currentTime.value = 0;
   duration.value = 0;
+  currentQuality.value = "自動";
   showQualityMenu.value = false;
+  if (hls) hls.currentLevel = -1;
   qualities.value.clear();
-  isLoading.value = true;
+
   destroyHls();
 
   if (videoRef.value) {
